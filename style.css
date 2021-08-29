@@ -1,0 +1,218 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.slider-section {
+    background: url(photo-1556103255-4443dbae8e5a.jpeg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+.easy-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+} 
+.easy-header span {
+    display: inline-block;
+    background: #1abc9c;
+    width: 40px;
+    height: 43px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 1px;
+    margin-right: 10px;
+}
+.easy-menu .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.slider-caption h4 {
+    margin-bottom: 35px;
+}
+.slider-caption h2 {
+    margin-bottom: 50px;
+    font-size: 46px;
+}
+.slider-caption .btn {
+    background: #27ae60;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.slider-caption .form-control {
+    padding: 18px 20px;
+}
+.counter-number-item .h2 {
+    font-size: 60px;
+}
+.counter-number-item .text-muted {
+    font-size: 20px;
+}
+.about-section {
+    background: #F7F9FF;
+}
+.about-text-left {
+    margin-top: 100px;
+}
+.about-text-left .lead {
+    font-size: 25px;
+    line-height: 2.7rem;
+}
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.left-img-side {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.right-text-side {
+    width: 60%;
+    padding: 18px;
+}
+.left-img-side img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+.row h1 {
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+.row p.text-muted {
+    font-size: 24px;
+}
+.portfolio-item a {
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(98, 120, 223, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfolio-item:hover a::after {
+    opacity: 1;
+    visibility: visible;
+}
+.pick-bg {
+    background: #F7F9FF;
+}
+.pricing-table-items {
+    background: #fff;
+    padding: 50px 35px;
+    border-radius: 10px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.pricing-table-items h1 {}
+.pricing-table-items h5 {}
+.pricing-table-items ul {
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 45px;
+} 
+.pricing-table-items ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+} 
+.pricing-table-items ul li span {
+    color: #1abc9c;
+    display: inline-block;
+    font-size: 25px;
+    width: 40px;
+    font-weight: bold;
+} 
+.pricing-table-button {}
+.pricing-table-button a {
+    border: 2px solid #1abc9c;
+    color: #1abc9c;
+    padding: 14px 30px;
+    font-size: 22px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+i.fas.fa-quote-left {
+    font-size: 80px;
+    margin-bottom: 25px;
+    opacity: .1;
+    margin-top: -30px;
+}
+.author-info {
+    width: 220px;
+    margin: auto;
+}
+.author-info img {
+    width: 70px;
+    margin-right: 15px;
+}
+.user-details {
+    text-align: left;
+    position: relative;
+    top: 8px;
+}
+.about-item {
+    margin-top: 90px;
+}
+.about-item .card {}
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-left: 15px;
+    margin-top: -70px;
+}
+
+.demo-section .row h1 {
+    font-size: 39px;
+}
+.demo-section .row p {
+    font-size: 23px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+.btn-outline-info {
+    color: #1abc9c;
+    border-color: #16a085;
+}
+.btn-outline-primary {
+    color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+
+/* responsive css */
+
+@media (max-width: 992px) {
+    .about-text-left {
+        margin-top: 0;
+    }
+}
